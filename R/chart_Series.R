@@ -138,7 +138,7 @@ chart_theme <- chart_theme_white <- function() {
                         labels="#333333",
                         line.col="darkorange",
                         dn.col="red",
-                        up.col=NA, 
+                        up.col='green', 
                         dn.border="#333333", 
                         up.border="#333333"),
                shading=1,
