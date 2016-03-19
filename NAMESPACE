@@ -235,6 +235,8 @@ export(
     viewFinancials,viewFin,
 
     getDividends,
+    getDividends1,
+    getDividends.csv,
     getSplits,
 
     getQuote,
@@ -260,6 +262,7 @@ export(
     #getSymbols.IBrokers,
     getSymbols.csv,
     getSymbols.rda,
+    getSymbols.rds2,
     getSymbols.RData,
     getSymbols.google,
 
