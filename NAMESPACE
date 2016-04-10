@@ -301,6 +301,7 @@ export(
        # main charting functions
  
        chartSeries,
+       chartSeries3d0,
        reChart,
        saveChart,
 
