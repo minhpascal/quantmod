@@ -478,6 +478,7 @@ add_Series <- function(x, type="candlesticks",order=NULL, on=NA, legend="auto", 
   plot_object$add(exp,env=c(lenv, plot_object$Env),expr=TRUE)
   plot_object
 } #}}}
+
 # add_TA {{{
 add_TA <- function(x, order=NULL, on=NA, legend="auto",
                    yaxis=list(NULL,NULL),
@@ -604,6 +605,7 @@ add_SMA <- function(n=10, on=1, col='brown',...) {
   plot_object$add(exp,env=c(lenv, plot_object$Env),expr=TRUE)
   plot_object
 } # }}}
+
 # add_EMA {{{
 add_EMA <- function(n=10, on=1, col='blue',...) {
   lenv <- new.env()
